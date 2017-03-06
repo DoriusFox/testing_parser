@@ -14,38 +14,21 @@
     <![endif]-->
     <style>
     img {
-      border-radius: 10px 10px 0 0;
+    border-radius: 8px;
+    }
+    body {margin:25px;}
+
+    div.polaroid {
+      width: 100%;
+      background-color: white;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      margin-bottom: 25px;
     }
 
-    div.img {
-        border: 1px solid #ccc;
-        transition: .5s ease-out;
-        border-radius: 10px;
-        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    }
-
-    div.img:hover {
-        border: 1px solid #777;
-        transition: .5s ease-out;
-    }
-
-    div.img img {
-        width: 100%;
-        height: auto;
-    }
-
-    div.desc {
-        padding: 10px;
-        text-align: center;
-    }
-
-    * {
-        box-sizing: border-box;
-    }
-
-    .responsive {
-        padding: 0 6px;
-        width: 30%;
+    div.container {
+      text-align: center;
+      padding: 1px;
     }
     </style>
   </head>
@@ -68,23 +51,13 @@
         <p>Enhanced Parser - improved version of default parser with another looking, <br>bug fixes and minor changes.<br>This parser had been writen only for personal using, but many peoples ask to share <br>it and here it is.</p>
         <p>Make sure you've configured all settings in ACT /Option tab using Instruction from the link below.</p>
         <blockquote><p>Useful links:<br>Default Parser with Instuctions and Troubleshooting can be found here:<br>     <a href="https://tswact.wordpress.com/">https://tswact.wordpress.com</a><br>Changed Parser by Inkraja:<br>     <a href="http://inkraja.github.io/Advanced-Combat-Tracker/">http://inkraja.github.io/Advanced-Combat-Tracker/</a></p></blockquote>
-        <div class="responsive">
-          <div class="img">
-            <a target="_blank" href="images/color.jpg">
-              <img src="images/color.jpg" alt="Colored Export" width="300" height="200">
-            </a>
-            <div class="desc">Enabled Color Export</div>
+        <div class="polaroid" align="center"><br>
+          <a href="https://doriusfox.github.io/testing_parser/images/color.jpg"><img src="https://doriusfox.github.io/testing_parser/images/color.jpg" alt="Norway" style="width:48%"></a>&nbsp
+          <a href="https://doriusfox.github.io/testing_parser/images/noncolor.jpg"><img src="https://doriusfox.github.io/testing_parser/images/noncolor.jpg" alt="Norway" style="width:48%"></a>
+          <div class="container">
+            <p>Enabled Color Export / Disabled Color Export</p>
           </div>
         </div>
-        <div class="responsive">
-          <div class="img">
-            <a target="_blank" href="images/noncolor.jpg">
-              <img src="images/noncolor.jpg" alt="Uncolored Export" width="600" height="400">
-            </a>
-            <div class="desc">Disabled Color Export</div>
-          </div>
-        </div>
-        <div style="float:left">
         <h1>Version 1.1.7.3</h1>
         <pre>1. Fix for Signet of Death's Note
 2. Disabling the color export function now will disable all colors in script
@@ -99,7 +72,6 @@
    <em>Make sure you've got "Delete AEGIS Shield from encounter" option checked</em>
 6. Added shorter /ac (/actchat) command
 7. Minor bugs fixes</pre>
-        </div>
       </section>
     </div>
     <footer>
