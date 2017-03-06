@@ -42,6 +42,11 @@ strong {
   font-weight:700;
 }
 
+atext {
+  color:#069;
+  font-weight:400;
+}
+
 header {
   @include border-radius(8px 8px 0 0);
   background:#C6EAFA;
