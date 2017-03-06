@@ -12,46 +12,6 @@
     <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
-    <style>
-    .container {
-        position: static;
-        width: 50%;
-    }
-
-    .image {
-      opacity: 1;
-      display: block;
-      width: 100%;
-      height: auto;
-      transition: .5s ease;
-      backface-visibility: hidden;
-    }
-
-    .middle {
-      transition: .5s ease;
-      opacity: 0;
-      position: absolute;
-      top: 93%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      -ms-transform: translate(-50%, -50%)
-    }
-
-    .container:hover .image {
-      opacity: 0.9;
-    }
-
-    .container:hover .middle {
-      opacity: 1;
-    }
-
-    .text {
-      background-color: #4CAF50;
-      color: white;
-      font-size: 10px;
-      padding: 16px 32px;
-    }
-    </style>
   </head>
   <body>
     <div class="wrapper">
@@ -72,19 +32,6 @@
         <p>Enhanced Parser - improved version of default parser with another looking, <br>bug fixes and minor changes.<br>This parser had been writen only for personal using, but many peoples ask to share <br>it and here it is.</p>
         <p>Make sure you've configured all settings in ACT /Option tab using Instruction from the link below.</p>
         <blockquote><p>Useful links:<br>Default Parser with Instuctions and Troubleshooting can be found here:<br>     <a href="https://tswact.wordpress.com/">https://tswact.wordpress.com</a><br>Changed Parser by Inkraja:<br>     <a href="http://inkraja.github.io/Advanced-Combat-Tracker/">http://inkraja.github.io/Advanced-Combat-Tracker/</a></p></blockquote>
-        <div class="container">
-          <img src="images/color.jpg" alt="Colored" class="image" style="width:100%">
-          <div class="middle">
-            <div class="text">Export Color enabled
-            </div>
-          </div>
-        <div class="container">
-          <img src="images/noncolor.jpg" alt="Non-Colored" class="image" style="width:100%">
-          <div class="middle">
-            <div class="text">Export Color disabled
-            </div>
-          </div>
-        </div>
         
         <h1>Version 1.1.7.3</h1>
         <pre>1. Fix for Signet of Death's Note
